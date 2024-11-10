@@ -18,7 +18,7 @@ const Hero = () => {
         <br className="hidden lg:inline-block" />
         <Typewriter
   options={{
-    strings: ['Raja Mannan','Web Developer','Programmer','Future Agentic AI Developer'],
+    strings: ['Raja Mannan','Web Developer','Programmer'],
     autoStart: true,
     loop: true,
   }}
