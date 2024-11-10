@@ -1,8 +1,10 @@
 'use client'
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
+import ResumeImage from '../../../public/projects/static Resume.png';
 import ResumeProjectImage from '../../../public/projects/resumeProject.png';
+import RajaImage from '../../../public/projects/Raja.png'; 
 const Project = () => {
   return (
     <div id='project'>
@@ -21,12 +23,13 @@ const Project = () => {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
         <div className="flex relative">
-          <Image
-          
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/projects/Raja.png")}
-          />
+        <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src={RajaImage}  // Use the imported image here
+  width={1000}      // Specify width (for optimization)
+  height={1000}     // Specify height (for optimization)
+/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
               GOVERNOR'S WEBSITE
@@ -67,11 +70,13 @@ const Project = () => {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
         <div className="flex relative">
-          <Image
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/projects/static Resume.png")}
-          />
+        <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src={ResumeImage} // Use the imported image here
+  width={1000} // You can define width/height here
+  height={1000} // You can define width/height here
+/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
              STATIC RESUME

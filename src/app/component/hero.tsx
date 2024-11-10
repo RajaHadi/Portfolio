@@ -24,7 +24,7 @@ const Hero = () => {
           </h1>
         <div className='w-[100px] h-[2px] bg-blue-900'></div>
       <p className="mb-8 leading-relaxed">
-      Hello! I'm a passionate student at GIAIC, currently diving into the world of web development. I’ve recently completed learning TypeScript and am actively building my skills with Next.js and Tailwind CSS. With a solid foundation in HTML and CSS, I enjoy crafting responsive, user-friendly websites that look great and perform smoothly. I’m always eager to learn new technologies and improve my skills, and I’m excited to bring creative ideas to life through code!
+      Hello! I'm a passionate student at GIAIC, currently diving into the world of web development. I've recently completed learning TypeScript and am actively building my skills with Next.js and Tailwind CSS. With a solid foundation in HTML and CSS, I enjoy crafting responsive, user-friendly websites that look great and perform smoothly. I'm always eager to learn new technologies and improve my skills, and I'm excited to bring creative ideas to life through code!
       </p>
       <div className="flex justify-center">
         <Link href={"#contact"}>
