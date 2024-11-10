@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import ResumeProjectImage from '../../../public/projects/resumeProject.png';
 const Project = () => {
   return (
     <div id='project'>
@@ -45,11 +45,11 @@ const Project = () => {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
         <div className="flex relative">
-          <Image
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/projects/resumeProject.png")}
-          />
+        <Image
+        alt="gallery"
+        className="absolute inset-0 w-full h-full object-cover object-center"
+        src={ResumeProjectImage}
+      />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
               DYNAMIC RESUME BUILDER

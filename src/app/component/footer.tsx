@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import React from 'react'
 import Image from 'next/image';
+import RhLogo from '../../../public/rhlogo.png';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa";
@@ -13,7 +14,13 @@ const Footer = () => {
       <footer className="text-gray-600 body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-    <Image src={require("../../../public/rhlogo.png")} width={100} height={100} alt='sorry' className='w-[54px]'/>
+    <Image
+        src={RhLogo}
+        width={100}
+        height={100}
+        alt="sorry"
+        className="w-[54px]"
+      />
       <span className="ml-3 text-xl">Raja Mannan Khan</span>
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">

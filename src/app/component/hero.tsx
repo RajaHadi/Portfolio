@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
+import ProfileImage from '../../../public/profile.jpeg';
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
@@ -36,12 +37,12 @@ const Hero = () => {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
-      <Image
+    <Image
         className="object-cover object-center rounded w-[22rem] h-[25rem]"
         alt="hero"
         width={500}
         height={500}
-        src={require("../../../public/profile.jpeg")}
+        src={ProfileImage}
       />
     </div>
   </div>

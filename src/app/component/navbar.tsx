@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React from 'react'
 import Image from 'next/image';
+import SecondaryLogo from '../../../public/Secondary Logo.png';
+
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 
@@ -11,7 +13,14 @@ const Navbar = () => {
       <header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-     <Image src={require("../../../public/Secondary Logo.png")} width={100} height={100} alt='sorry' className='w-[54px] bg-blue-900'/>
+    <Image 
+  src={SecondaryLogo} 
+  width={100} 
+  height={100} 
+  alt="sorry" 
+  className="w-[54px] bg-blue-900" 
+/>
+
       <span className="ml-3 text-xl text-white">Raja Mannan Khan</span>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold">
