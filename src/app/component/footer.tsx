@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React from 'react'
 import Image from 'next/image';
-import RhLogo from '../../../public/rhlogo.png';
+import RhLogo from '../../../public/new web logo.png';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa";
