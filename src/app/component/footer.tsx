@@ -29,14 +29,14 @@ const Footer = () => {
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <Link href={"https://www.facebook.com/shabana.jawed.7528"} target="_blank" className="text-gray-500 ">
-      <FaFacebook className='text-2xl hover:text-[#4267B2]'/>
+      <FaFacebook className='text-2xl hover:text-[#4267B2] hover:text-2xl'/>
       </Link >
       
       <Link href={"https://www.instagram.com/hadi__rajpoot_360?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="ml-3  text-gray-500" target="_blank">
-      <FaInstagram className='text-2xl hover:text-[#c13584]' />
+      <FaInstagram className='text-2xl hover:text-[#c13584] hover:text-xl' />
       </Link >
       <Link href={"https://github.com/RajaHadi"} target="_blank" className="ml-3  text-gray-500">
-      <FaGithub className='text-2xl hover:text-[#171515]' />
+      <FaGithub className='text-2xl hover:text-[#171515] hover:text-xl' />
       </Link >
     </span>
   </div>

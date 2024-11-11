@@ -21,9 +21,9 @@ const Navbar = () => {
   className="w-[54px] bg-blue-900" 
 />
 
-      <span className="ml-3 text-xl text-white">Raja Mannan Khan</span>
+      <span className="ml-3 text-xl text-white font-mono">Raja Mannan Khan</span>
     </a>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold">
+    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold font-serif">
       <Link href={"/"} className="mr-5 hover:text-blue-600 text-white">Home</Link>
       <Link href={"#about"} className="mr-5 hover:text-blue-600 text-white">About</Link>
       <Link href={"#skill"} className="mr-5 hover:text-blue-600 text-white">Skills</Link>
