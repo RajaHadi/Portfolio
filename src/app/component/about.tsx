@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import ProfileImage from '../../../public/profile.jpeg';
+import ProfileImage from '../../../public/hadi.jpg';
 
 
 const About = () => {
@@ -24,10 +24,10 @@ const About = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
         About Me
       </h1>
-      <p className="mb-5 leading-relaxed text-black">
+      <p className="mb-5 leading-relaxed font-sans text-black">
       I Completed My Matriculation From Citizen Public Secondary School. Currently I am doing Intermediate From S.M Govt Science College.
       </p>
-      <p className=' text-black mb-5 leading-relaxed'>I am also enrolled In Governor Initiative Of Arificial Intelligence and Cloud Computing. Currently Learning Web Development and Soon We Will Learn Agentic AI Development.</p>
+      <p className=' text-black mb-5 font-sans leading-relaxed'>I am also enrolled In Governor Initiative Of Arificial Intelligence and Cloud Computing. Currently Learning Web Development and Soon We Will Learn Agentic AI Development.</p>
       <div className="flex justify-center">
         <Link href={"/cv/HadiResume.pdf"}>
         <button className="inline-flex text-white bg-blue-900 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
