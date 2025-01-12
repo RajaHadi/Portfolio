@@ -69,7 +69,7 @@ const Project = () => {
              This is an Website With Simple Blogs
             </p>
            
-            <Link href={"https://dynamic-resume-builder-x299.vercel.app/"} target="_blank">
+            <Link href={"https://blog-website-flax-eight.vercel.app/"} target="_blank">
             <p className='text-blue-900 hover:underline font-extrabold mt-1'>Click To View</p>
             </Link>
            
