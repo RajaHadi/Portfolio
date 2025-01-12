@@ -86,14 +86,14 @@ const Project = () => {
       />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
-              DYNAMIC RESUME BUILDER
+            ECOMMMERCE
             </h2>
             <h1 className="title-font text-lg font-medium text-white mb-3">
-             Dynamic Resume Builder
+           Simple Ecommerce
             </h1>
             <p className="leading-relaxed">
-            It is an Dynamic Resume Builder where you can easily create your Resume.</p>
-            <Link href={"https://dynamic-resume-builder-x299.vercel.app/"} target="_blank">
+            A simple Ecommerce WebSite.</p>
+            <Link href={"https://ecommerce-silk-five-67.vercel.app/"} target="_blank">
             <p className='text-blue-900 hover:underline font-extrabold mt-1'>Click To View</p>
             </Link>
           </div>
