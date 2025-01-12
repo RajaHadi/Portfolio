@@ -9,6 +9,7 @@ import ResumeProjectImage from '../../../public/projects/resumeProject.png';
 import RajaImage from '../../../public/projects/Raja.png'; 
 import Blog from '../../../public/projects/Blog App.png'
 import Food from '../../../public/projects/Food.png'
+import Ecommerce from '../../../public/projects/Ecommerce.png'
 const Project = () => {
   return (
     <div id='project'>
@@ -82,7 +83,7 @@ const Project = () => {
         <Image
         alt="gallery"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src={ResumeProjectImage}
+        src={Ecommerce}
       />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
