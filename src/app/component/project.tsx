@@ -7,6 +7,7 @@ import React from 'react'
 import ResumeImage from '../../../public/projects/static Resume.png';
 import ResumeProjectImage from '../../../public/projects/resumeProject.png';
 import RajaImage from '../../../public/projects/Raja.png'; 
+import Blog from '../../../public/projects/Blog App.png'
 const Project = () => {
   return (
     <div id='project'>
@@ -44,6 +45,33 @@ const Project = () => {
             </p>
            
             <p className='text-blue-900 hover:underline font-medium mt-1'>It Isn't Deployed</p>
+           
+          </div>
+        </div>
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
+        <div className="flex relative">
+        <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src={Blog}  // Use the imported image here
+  width={1000}      // Specify width (for optimization)
+  height={1000}     // Specify height (for optimization)
+/>
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
+             BLOG APP
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+             Bog Website
+            </h1>
+            <p className="leading-relaxed">
+             This is an Website With Simple Blogs
+            </p>
+           
+            <Link href={"https://dynamic-resume-builder-x299.vercel.app/"} target="_blank">
+            <p className='text-blue-900 hover:underline font-extrabold mt-1'>Click To View</p>
+            </Link>
            
           </div>
         </div>
