@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import ResumeImage from '../../../public/projects/static Resume.png';
-import ResumeProjectImage from '../../../public/projects/resumeProject.png';
 import RajaImage from '../../../public/projects/Raja.png'; 
 import Blog from '../../../public/projects/Blog App.png'
 import Food from '../../../public/projects/Food.png'
