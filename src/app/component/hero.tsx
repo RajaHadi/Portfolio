@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import ProfileImage from '../../../public/hadi.jpg';
+import ProfileImage from '../../../public/Raja_new.jpeg';
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
