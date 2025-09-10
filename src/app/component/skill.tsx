@@ -120,6 +120,26 @@ const Skill = () => {
           </div>
         </div>
       </div>
+       <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full  text-white flex-shrink-0">
+            <RiNextjsFill className='text-2xl '/>
+            </div>
+            <h2 className="text-white text-lg title-font font-medium">
+             Python Programming
+            </h2>
+          </div>
+          <div className="flex-grow">
+              <div className='relative h-1 w-full bg-gray-500 rounded-xl'>
+                <div className='absolute h-1 bg-blue-900 rounded-xl w-[70%]'></div>
+                
+            </div>
+            <p className='text-blue-900 font-bold mt-3 text-2xl text-right'>70%</p>
+           
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
