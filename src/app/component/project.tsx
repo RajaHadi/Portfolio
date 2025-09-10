@@ -1,163 +1,108 @@
 'use client'
 /* eslint-disable react/no-unescaped-entities */
-
 import Image from 'next/image';
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 import ResumeImage from '../../../public/projects/static Resume.png';
-import RajaImage from '../../../public/projects/Raja.png'; 
-import Blog from '../../../public/projects/Blog App.png'
-import Food from '../../../public/projects/Food.png'
-import Ecommerce from '../../../public/projects/Ecommerce.png'
+import RajaImage from '../../../public/projects/Raja.png';
+import Blog from '../../../public/projects/Blog App.png';
+import Food from '../../../public/projects/Food.png';
+import Ecommerce from '../../../public/projects/Ecommerce.png';
+
+const projects = [
+  {
+    title: "Governor's Website",
+    subtitle: "GOVERNOR'S WEBSITE",
+    desc: "This is Governor's IT Initiative Website I Cloned.",
+    img: RajaImage,
+    link: "",
+  },
+  {
+    title: "Blog Website",
+    subtitle: "BLOG APP",
+    desc: "A simple blog website with basic functionality.",
+    img: Blog,
+    link: "https://blog-website-flax-eight.vercel.app/",
+  },
+  {
+    title: "Ecommerce Website",
+    subtitle: "ECOMMERCE",
+    desc: "A simple Ecommerce Website with cart functionality.",
+    img: Ecommerce,
+    link: "https://ecommerce-silk-five-67.vercel.app/",
+  },
+  {
+    title: "Restaurant Website",
+    subtitle: "FOOD RESTAURANT",
+    desc: "A Food Restaurant Website I developed For My UI Hackathon.",
+    img: Food,
+    link: "https://my-hackathon-flame.vercel.app/",
+  },
+  {
+    title: "Static Resume",
+    subtitle: "STATIC RESUME",
+    desc: "A simple static resume created to achieve a milestone.",
+    img: ResumeImage,
+    link: "https://static-interactive-resume-vert.vercel.app/",
+  },
+];
+
 const Project = () => {
   return (
-    <div id='project'>
-      <section className="text-gray-400 bg-gray-900 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-       My Projects
-      </h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-        gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-        heard of them man bun deep jianbing selfies heirloom.
-      </p>
-    </div>
-    <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
-        <div className="flex relative">
-        <Image
-  alt="gallery"
-  className="absolute inset-0 w-full h-full object-cover object-center"
-  src={RajaImage}  // Use the imported image here
-  width={1000}      // Specify width (for optimization)
-  height={1000}     // Specify height (for optimization)
-/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
-              GOVERNOR'S WEBSITE
-            </h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">
-              Governor's Website
-            </h1>
-            <p className="leading-relaxed">
-              This is Governor's IT Initiative Website I Cloned.
-            </p>
-           
-            <p className='text-blue-900 hover:underline font-medium mt-1'>It Isn't Deployed</p>
-           
-          </div>
+    <section id="project" className="text-gray-400 bg-gray-950 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-16">
+          <motion.h1 
+            initial={{ opacity: 0, y: -40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="sm:text-4xl text-3xl font-bold title-font mb-4 text-white tracking-wide"
+          >
+            My Projects
+          </motion.h1>
+          <motion.p 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            className="lg:w-2/3 mx-auto leading-relaxed text-lg text-gray-300"
+          >
+            A collection of projects I’ve built with <span className="text-blue-400 font-medium">Next.js</span>, <span className="text-teal-400 font-medium">Tailwind</span>, and modern web technologies.
+          </motion.p>
         </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
-        <div className="flex relative">
-        <Image
-  alt="gallery"
-  className="absolute inset-0 w-full h-full object-cover object-center"
-  src={Blog}  // Use the imported image here
-  width={1000}      // Specify width (for optimization)
-  height={1000}     // Specify height (for optimization)
-/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
-             BLOG APP
-            </h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">
-             Bog Website
-            </h1>
-            <p className="leading-relaxed">
-             This is an Website With Simple Blogs
-            </p>
-           
-            <Link href={"https://blog-website-flax-eight.vercel.app/"} target="_blank">
-            <p className='text-blue-900 hover:underline font-extrabold mt-1'>Click To View</p>
-            </Link>
-           
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
-        <div className="flex relative">
-        <Image
-        alt="gallery"
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={Ecommerce}
-      />
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
-            ECOMMMERCE
-            </h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">
-           Simple Ecommerce
-            </h1>
-            <p className="leading-relaxed">
-            A simple Ecommerce WebSite.</p>
-            <Link href={"https://ecommerce-silk-five-67.vercel.app/"} target="_blank">
-            <p className='text-blue-900 hover:underline font-extrabold mt-1'>Click To View</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
-        <div className="flex relative">
-        <Image
-  alt="gallery"
-  className="absolute inset-0 w-full h-full object-cover object-center"
-  src={Food}  // Use the imported image here
-  width={1000}      // Specify width (for optimization)
-  height={1000}     // Specify height (for optimization)
-/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
-           FOOD RESTURANT
-            </h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">
-             Resturant Website
-            </h1>
-            <p className="leading-relaxed">
-           A Food Resturant Website I developed For My UI Hackathon.
-            </p>
-           
-            <Link href={"https://my-hackathon-flame.vercel.app/"} target="_blank">
-            <p className='text-blue-900 hover:underline font-extrabold mt-1'>Click To View</p>
-            </Link>
-           
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 hover:cursor-pointer">
-        <div className="flex relative">
-        <Image
-  alt="gallery"
-  className="absolute inset-0 w-full h-full object-cover object-center"
-  src={ResumeImage} // Use the imported image here
-  width={1000} // You can define width/height here
-  height={1000} // You can define width/height here
-/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-900 mb-1">
-             STATIC RESUME
-            </h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">
-              Static Resume
-            </h1>
-            <p className="leading-relaxed">
-             It is an Simple Static Resume. I created To achieve the Milestone.
-            </p>
-            <Link href={"https://static-interactive-resume-vert.vercel.app/"} target="_blank">
-            <p className='text-blue-900 hover:underline font-medium mt-1'>Click To View</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-    
-    </div>
-  </div>
-</section>
 
-    </div>
-  )
-}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((proj, i) => (
+            <motion.div 
+              key={i}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: i * 0.2 }}
+              viewport={{ once: true }}
+              className="relative group rounded-2xl overflow-hidden shadow-lg border border-gray-800"
+            >
+              <Image 
+                src={proj.img}
+                alt={proj.title}
+                className="object-cover w-full h-64 transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-end p-6">
+                <h2 className="text-blue-400 text-sm font-semibold tracking-wide">{proj.subtitle}</h2>
+                <h1 className="text-white text-xl font-bold">{proj.title}</h1>
+                <p className="text-gray-300 text-sm mt-2">{proj.desc}</p>
+                {proj.link ? (
+                  <Link href={proj.link} target="_blank" className="mt-3 inline-block text-blue-400 hover:underline font-semibold">
+                    Click To View →
+                  </Link>
+                ) : (
+                  <p className="mt-3 text-red-400 font-medium">Not Deployed</p>
+                )}
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Project;
