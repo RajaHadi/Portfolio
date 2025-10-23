@@ -3,12 +3,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import ResumeImage from '../../../public/projects/static Resume.png';
+import ResumeImage from '../../../public/projects/Screenshot 2025-10-23 094933.png';
 import RajaImage from '../../../public/projects/Raja.png';
 import Blog from '../../../public/projects/Blog App.png';
 import Food from '../../../public/projects/Food.png';
 import Ecommerce from '../../../public/projects/Ecommerce.png';
-
+import LuxeBag from '../../../public/projects/LuxeBags.png';
 const projects = [
   {
     title: "Governor's Website",
@@ -39,11 +39,18 @@ const projects = [
     link: "https://my-hackathon-flame.vercel.app/",
   },
   {
-    title: "Static Resume",
-    subtitle: "STATIC RESUME",
-    desc: "A simple static resume created to achieve a milestone.",
+    title: "Raja's Burger Point ",
+    subtitle: " RAJA'S BURGER",
+    desc: "A simple and attractive front-end created for Raja;s Burgers.",
     img: ResumeImage,
-    link: "https://static-interactive-resume-vert.vercel.app/",
+    link: "https://landing-page-fawn-xi-14.vercel.app/",
+  },
+  {
+    title: "Luxe Bags",
+    subtitle: "LUXE BAGS",
+    desc: "A attractive and resposive woman bags and purses store.",
+    img: LuxeBag,
+    link: "https://v0-handbag-website-design-black.vercel.app/",
   },
 ];
 
