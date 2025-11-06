@@ -9,6 +9,7 @@ import Blog from '../../../public/projects/Blog App.png';
 import Food from '../../../public/projects/Food.png';
 import Ecommerce from '../../../public/projects/Ecommerce.png';
 import LuxeBag from '../../../public/projects/LuxeBags.png';
+import GentleMan from '../../../public/projects/Gentleman.png';
 const projects = [
   {
     title: "Governor's Website",
@@ -25,11 +26,11 @@ const projects = [
     link: "https://blog-website-flax-eight.vercel.app/",
   },
   {
-    title: "Ecommerce Website",
-    subtitle: "ECOMMERCE",
-    desc: "A simple Ecommerce Website with cart functionality.",
-    img: Ecommerce,
-    link: "https://ecommerce-silk-five-67.vercel.app/",
+    title: "Gentleman Clothing",
+    subtitle: "COTHING SHOP",
+    desc: "🛍️ Modern e-commerce clothing store for men built with Next.js 15, Sanity CMS, Tailwind CSS.",
+    img: GentleMan,
+    link: "https://gentleman-shop.vercel.app/",
   },
   {
     title: "Restaurant Website",
