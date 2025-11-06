@@ -7,7 +7,6 @@ import ResumeImage from '../../../public/projects/Screenshot 2025-10-23 094933.p
 import RajaImage from '../../../public/projects/Raja.png';
 import Blog from '../../../public/projects/Blog App.png';
 import Food from '../../../public/projects/Food.png';
-import Ecommerce from '../../../public/projects/Ecommerce.png';
 import LuxeBag from '../../../public/projects/LuxeBags.png';
 import GentleMan from '../../../public/projects/Gentleman.png';
 const projects = [
