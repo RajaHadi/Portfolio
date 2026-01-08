@@ -50,6 +50,13 @@ const Projects = () => {
       description: "A attractive and resposive woman bags and purses store.",
       link: "https://v0-handbag-website-design-black.vercel.app/"
     },
+    {
+      title: "Humonoid Robotics Book",
+      category: "Web Development",
+      image: "/projects/Book.png",
+      description: "Master humanoid control, embodied intelligence, and VLA systems through our comprehensive engineering guide..",
+      link: "https://rajahadi.github.io/-physical-ai-humanoid-robotics-book/"
+    },
   ];
 
   const filteredProjects = activeCategory === "All" 
