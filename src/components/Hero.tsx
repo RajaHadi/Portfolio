@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -7,7 +8,19 @@ const Hero = () => {
       <div className="flex-1 space-y-6 text-center md:text-left">
         <h2 className="text-xl font-semibold text-white">Hi I am</h2>
         <h1 className="text-4xl md:text-5xl font-bold text-primary">Raja Mannan Khan</h1>
-        <h2 className="text-4xl md:text-5xl font-bold text-white">Web Developer</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-white">
+          <TypeAnimation
+            sequence={[
+              'Full Stack Developer',
+              2000,
+              'AI Agents Developer',
+              2000,
+            ]}
+            wrapper="span"
+            speed={50}
+            repeat={Infinity}
+          />
+        </h2>
         <p className="text-gray-400 max-w-lg mx-auto md:mx-0 leading-relaxed">
           👋 Hello! I’m a passionate developer with expertise in Next.js and Tailwind CSS, now diving into the world of Agentic AI using the OpenAI Agents SDK. I love building responsive, user-friendly web applications and expanding into AI-powered solutions 🚀.
         </p>
