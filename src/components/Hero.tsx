@@ -22,7 +22,7 @@ const Hero = () => {
           />
         </h2>
         <p className="text-gray-400 max-w-lg mx-auto md:mx-0 leading-relaxed">
-          👋 Hello! I’m a passionate developer with expertise in Next.js and Tailwind CSS, now diving into the world of Agentic AI using the OpenAI Agents SDK. I love building responsive, user-friendly web applications and expanding into AI-powered solutions 🚀.
+          👋 Hello! I’m a passionate developer with expertise in latest cutting-edge technologies, now diving into the world of Agentic AI . I love building responsive, user-friendly web applications and expanding into AI-powered solutions 🚀.
         </p>
         <Link href="#contact">
           <button className="bg-primary text-white px-8 py-3 rounded-md font-medium hover:opacity-90 transition-opacity inline-block cursor-pointer">
