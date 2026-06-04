@@ -11,9 +11,9 @@ const Hero = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-white">
           <TypeAnimation
             sequence={[
-              'Full Stack Developer',
+              'Full Stack Web Engineer',
               2000,
-              'AI Agents Developer',
+              'Agentic AI Developer',
               2000,
             ]}
             wrapper="span"
@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="flex-1 flex justify-center relative">
         <div className="relative w-[300px] h-[300px] md:w-[450px] md:h-[450px] bg-neutral-800 rounded-full overflow-hidden border-4 border-primary/30 flex items-center justify-center">
              <Image 
-               src="/og.png" 
+               src="/og.jpg" 
                alt="Raja Mannan Khan" 
                fill 
                className="object-cover" 
