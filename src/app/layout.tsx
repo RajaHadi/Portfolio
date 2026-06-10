@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Raja Mannan Khan - AGENTIC AI DEV Portfolio",
-  description: "Portfolio of Raja Mannan Khan, a Software Engineer.",
+  title: "Raja Mannan Khan | Agentic AI Developer & Software Engineer",
+  description: "Explore the portfolio of Raja Mannan Khan, showcasing projects in Agentic AI, Next.js, TypeScript, and modern web development.",
 };
 
 export default function RootLayout({

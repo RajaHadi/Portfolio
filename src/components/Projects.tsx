@@ -16,11 +16,11 @@ const Projects = () => {
       link: "https://github.com/RajaMannan/governor-website-clone",
     },
     {
-      title: "Blog Website",
+      title: " Task Master",
       category: "Web Development",
-      image: "/projects/Blog_App.png",
-      description: "A simple blog website with basic functionality.",
-      link: "https://blog-website-flax-eight.vercel.app/",
+      image: "/projects/tm.png",
+      description: "Task Manager to Manage your daily life Tasks and Todo's.",
+      link: "https://task-master-one-lemon.vercel.app/",
     },
     {
       title: "Gentleman Clothing",
