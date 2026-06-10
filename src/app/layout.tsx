@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Raja Mannan Khan - UI/UX Designer Portfolio",
-  description: "Portfolio of Raja Mannan Khan, a UI/UX Designer.",
+  title: "Raja Mannan Khan - AGENTIC AI DEV Portfolio",
+  description: "Portfolio of Raja Mannan Khan, a Software Engineer.",
 };
 
 export default function RootLayout({
